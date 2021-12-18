@@ -16,5 +16,40 @@ namespace Order_Automation
         {
             InitializeComponent();
         }
+
+        private void Ödemeform_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "Kredi Kartı")
+            {
+                panel2.Enabled = true;
+                panel1.Enabled = false;
+                panel3.Enabled = false;
+            }
+            else if (comboBox1.Text == "Nakit")
+            {
+
+                panel2.Enabled = false;
+                panel1.Enabled = true;
+                panel3.Enabled = false;
+
+            }
+            else if (comboBox1.Text == "Çek")
+            {
+
+                panel1.Enabled = false;
+                panel2.Enabled = false;
+                panel3.Enabled = true;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
