@@ -37,9 +37,10 @@ namespace Order_Automation
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(129, 259);
+            this.button1.Location = new System.Drawing.Point(97, 210);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(114, 38);
+            this.button1.Size = new System.Drawing.Size(86, 31);
             this.button1.TabIndex = 0;
             this.button1.Text = "Müşteri Kayıt";
             this.button1.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@ namespace Order_Automation
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(417, 259);
+            this.button2.Location = new System.Drawing.Point(313, 210);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 38);
+            this.button2.Size = new System.Drawing.Size(86, 31);
             this.button2.TabIndex = 1;
             this.button2.Text = "Müşteri Giriş";
             this.button2.UseVisualStyleBackColor = true;
@@ -57,9 +59,10 @@ namespace Order_Automation
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(705, 259);
+            this.button3.Location = new System.Drawing.Point(529, 210);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 38);
+            this.button3.Size = new System.Drawing.Size(86, 31);
             this.button3.TabIndex = 2;
             this.button3.Text = "Satıcı Giriş";
             this.button3.UseVisualStyleBackColor = true;
@@ -67,24 +70,28 @@ namespace Order_Automation
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(975, 184);
+            this.button4.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button4.Location = new System.Drawing.Point(731, 150);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(216, 113);
+            this.button4.Size = new System.Drawing.Size(162, 92);
             this.button4.TabIndex = 19;
             this.button4.Text = "ödeme sayfası sil";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Order_Automation.Properties.Resources.kindpng_1640925;
-            this.ClientSize = new System.Drawing.Size(1296, 329);
+            this.ClientSize = new System.Drawing.Size(972, 267);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "menu";
             this.Text = "Form1";
             this.ResumeLayout(false);
