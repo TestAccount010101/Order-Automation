@@ -53,6 +53,5 @@ namespace Order_Automation
                 TxtKullanici.Text = "";
                 TxtKpass.Text = "";
         }
-      
     }
 }
